@@ -1,0 +1,175 @@
+{
+  "asset": {
+    "generator": "BabylonJS",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene_data.bin",
+      "byteLength": 9614808
+    }
+  ],
+  "nodes": [
+    {
+      "name": "active",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0000000163967315,
+        1.0000000035507606,
+        1.0000000048209534
+      ],
+      "rotation": [
+        0.20362615408904272,
+        -0.5388316517142058,
+        0.1361259824878143,
+        0.8060189559641717
+      ]
+    },
+    {
+      "name": "Default",
+      "scale": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Mesh1",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "mesh",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4120632,
+      "name": "position - mesh",
+      "byteStride": 12,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4120632,
+      "byteOffset": 4120632,
+      "name": "normal - mesh",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1373544,
+      "byteOffset": 8241264,
+      "name": "Indices - mesh"
+    }
+  ],
+  "accessors": [
+    {
+      "name": "position - mesh",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 343386,
+      "type": "VEC3",
+      "min": [
+        -26.797548294067383,
+        -26.797231674194336,
+        -19
+      ],
+      "max": [
+        26.796281814575195,
+        26.797231674194336,
+        0
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - mesh",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 343386,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - mesh",
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 343386,
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "default material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      }
+    },
+    {
+      "name": "material0",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.7226724536002546,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "skyBox",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.9999999999999994,
+        "roughnessFactor": 0.30000000000000004
+      }
+    }
+  ]
+}
